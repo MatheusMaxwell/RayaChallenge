@@ -45,6 +45,13 @@ currencies and another screen where it is possible to swap between these currenc
         - viewmodel
     - navigation (Navigation file)
 
+## Data
+In order to run the app and make some transactions, mock data was used and the coingecko API was 
+used to get the currency quotes.
+For this mock data, the app will start with some predefined values and yes, it is possible to perform 
+the swap and see the changes in the values in real time. However, because it is mock data, 
+when restarting the app, the data returns to the default values.
+
 ## Android
 To run the app on Android devices, open Android Studio, let it synchronize all apps and at the top 
 where there is the play button, select the Android device and the ComposeApp variant and run it.
@@ -61,5 +68,9 @@ These commands are to generate files needed to run iOS. After that, in the upper
 to the left of the play button, select the iosApp variant and run the app. If a Run/Debug 
 configuration window opens, you probably don't have any iOS device selected. So select one, 
 apply, and run it again.
+
+Note: Contains some components annotated as dev mode in the app so that it is possible to represent 
+some errors in the application. Therefore, components with the dev mode annotation do not belong to 
+the app, they are present to facilitate the visualization of errors since the data is mock.
 
 Learn more about [Kotlin Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)…
