@@ -44,3 +44,13 @@ fun PrimaryButton(
         )
     }
 }
+
+@Preview
+@Composable
+private fun PrimaryButtonPreview() {
+    PrimaryButton(
+        text = "button",
+        onClick = {}
+    )
+}
+

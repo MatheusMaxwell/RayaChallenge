@@ -26,3 +26,9 @@ fun RayaIcon() {
         )
     }
 }
+
+@Preview
+@Composable
+private fun RayaIconPreview() {
+    RayaIcon()
+}

@@ -122,3 +122,21 @@ private fun ErrorFullScreenModal(onDismiss: () -> Unit) {
         }
     }
 }
+
+@Preview
+@Composable
+private fun BalanceSwapResultSuccessPreview() {
+    BalanceSwapResult(
+        isSuccess = true,
+        onDismiss = {}
+    )
+}
+
+@Preview
+@Composable
+private fun BalanceSwapResultErrorPreview() {
+    BalanceSwapResult(
+        isSuccess = false,
+        onDismiss = {}
+    )
+}

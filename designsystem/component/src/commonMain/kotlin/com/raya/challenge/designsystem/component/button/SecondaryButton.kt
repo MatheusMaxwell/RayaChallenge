@@ -43,3 +43,12 @@ fun SecondaryButton(
         )
     }
 }
+
+@Preview
+@Composable
+private fun SecondaryButtonPreview() {
+    SecondaryButton(
+        text = "button",
+        onClick = {}
+    )
+}

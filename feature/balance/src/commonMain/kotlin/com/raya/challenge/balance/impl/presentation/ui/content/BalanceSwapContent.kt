@@ -388,3 +388,16 @@ private fun DecimalInputField(
         }
     }
 }
+
+@Preview
+@Composable
+private fun BalanceSwapContentPreview() {
+    BalanceSwapContent(
+        balanceTransactionModel = BalanceTransactionModel(
+            balance = listOf(),
+            transactions = listOf(),
+            prices = mapOf()
+        ),
+        executeSwap = { _,_,_,_,_ -> }
+    )
+}

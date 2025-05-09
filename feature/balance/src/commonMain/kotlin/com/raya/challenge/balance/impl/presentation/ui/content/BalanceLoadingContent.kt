@@ -60,3 +60,9 @@ private fun SkeletonBalanceCard() {
         elevation = 0.dp
     ) {}
 }
+
+@Preview
+@Composable
+private fun BalanceLoadingContentPreview() {
+    BalanceLoadingContent()
+}

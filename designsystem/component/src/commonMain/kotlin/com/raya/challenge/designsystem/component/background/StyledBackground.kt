@@ -55,3 +55,9 @@ fun StyledBackground(content: @Composable () -> Unit) {
         content()
     }
 }
+
+@Preview
+@Composable
+private fun StyledBackgroundPreview() {
+    StyledBackground {}
+}

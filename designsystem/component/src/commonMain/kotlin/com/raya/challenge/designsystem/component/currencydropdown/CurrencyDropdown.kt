@@ -57,3 +57,12 @@ fun CurrencyDropdown(
         }
     }
 }
+
+@Preview
+@Composable
+private fun CurrencyDropdownPreview() {
+    CurrencyDropdown(
+        selectedCurrency = Currency.USD,
+        onCurrencySelected = { _ -> }
+    )
+}
